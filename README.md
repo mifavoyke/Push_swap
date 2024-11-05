@@ -54,5 +54,3 @@ Error
 
 - Compiles with `make`
 - Developed according to the 42 School Norms, with no memory leaks.
-
-Visualised execution with the help of a visualiser https://push-swap-visualizer.vercel.app
