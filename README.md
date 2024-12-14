@@ -1,5 +1,12 @@
 # Push_swap
 
+
+https://github.com/user-attachments/assets/2bcce691-a469-4fd1-a97b-c7cefca4e287
+
+
+To see how push_swap works in action, I used the Push_swap Visualizer which you can find following this link:
+https://push-swap-visualizer.vercel.app
+
 `push_swap` is a sorting algorithm project written in C that sorts a stack of integers with a minimal set of operations. It implements a custom instruction language to move values between two stacks, aiming to sort with the fewest possible commands.
 
 ## How It Works
@@ -35,13 +42,6 @@ pb
 pa
 pa
 ```
-
-## Visualized Execution
-
-To see how push_swap works in action, I used the Push_swap Visualizer which you can find following this link:
-https://push-swap-visualizer.vercel.app
-
-https://github.com/user-attachments/assets/93296d20-1905-476e-8c1d-5412577bca54
 
 ## Error Handling
 
