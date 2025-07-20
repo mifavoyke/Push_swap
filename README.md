@@ -1,11 +1,11 @@
 # Push_swap
 
+<video autoplay muted loop>
+  <source src="[your-video-file.mp4](https://github.com/user-attachments/assets/2bcce691-a469-4fd1-a97b-c7cefca4e287)" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
-https://github.com/user-attachments/assets/2bcce691-a469-4fd1-a97b-c7cefca4e287
-
-
-To see how push_swap works in action, I used the Push_swap Visualizer which you can find following this link:
-https://push-swap-visualizer.vercel.app
+I used the existing Push_swap Visualizer to create this video: https://push-swap-visualizer.vercel.app
 
 `push_swap` is a sorting algorithm project written in C that sorts a stack of integers with a minimal set of operations. It implements a custom instruction language to move values between two stacks, aiming to sort with the fewest possible commands.
 
@@ -41,13 +41,6 @@ pb
 pb
 pa
 pa
-```
-
-## Error Handling
-
-If invalid arguments are provided, the program outputs:
-```
-Error
 ```
 
 ## Requirements
