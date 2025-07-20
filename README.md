@@ -3,7 +3,7 @@
 
 I used the existing Push_swap Visualizer to create this video: https://push-swap-visualizer.vercel.app
 
-`push_swap` is a sorting algorithm project written in C that sorts a stack of integers with a minimal set of operations. It implements a custom instruction language to move values between two stacks, aiming to sort with the fewest possible commands.
+`push_swap` is a sorting algorithm project written in C that sorts a stack of integers with a minimal set of operations.
 
 ## How It Works
 
@@ -18,25 +18,25 @@ The following operations are used to manipulate the stacks:
 - `ra`, `rb`, `rr`: Rotate all elements in `a`, `b`, or both upwards.
 - `rra`, `rrb`, `rrr`: Reverse rotate all elements in `a`, `b`, or both downwards.
 
-## Usage
-
-To run the program, use:
-```bash
-./push_swap <int1> <int2> <int3> ...
-```
-
 Example:
 ```bash
-./push_swap 1000000 -1 0 23
+./push_swap 5 2  9 4 -4
 ```
 
 Sample output:
 ```
+Operations:
 ra
 pb
+ra
+ra
 pb
+sb
+rra
 pa
 pa
+Sorted stack:
+-4 2 4 5 9
 ```
 
 ## Requirements
