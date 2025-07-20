@@ -1,9 +1,5 @@
 # Push_swap
-
-<video autoplay muted loop>
-  <source src="[your-video-file.mp4](https://github.com/user-attachments/assets/2bcce691-a469-4fd1-a97b-c7cefca4e287)" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[your-video-file.mp4](https://github.com/user-attachments/assets/2bcce691-a469-4fd1-a97b-c7cefca4e287)
 
 I used the existing Push_swap Visualizer to create this video: https://push-swap-visualizer.vercel.app
 
