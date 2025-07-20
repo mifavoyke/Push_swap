@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yhusieva <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: yhusieva <yhusieva@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 13:23:49 by yhusieva          #+#    #+#             */
-/*   Updated: 2024/08/12 13:23:50 by yhusieva         ###   ########.fr       */
+/*   Updated: 2025/07/20 17:50:21 by yhusieva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,10 @@ int	main(int argc, char *argv[])
 	stack_a = NULL;
 	populate_stack(&stack_a, args, count);
 	free(args);
+	ft_printf("Operations:\n");
 	sort(&stack_a);
+	ft_printf("Sorted stack:\n");
+	stack_print(stack_a);
 	stack_clear(&stack_a, pop);
 	cleanup(argc, numbers, count);
 	return (0);

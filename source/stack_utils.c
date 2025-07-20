@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   stack_utils.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yhusieva <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: yhusieva <yhusieva@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 14:47:42 by yhusieva          #+#    #+#             */
-/*   Updated: 2024/08/12 14:47:43 by yhusieva         ###   ########.fr       */
+/*   Updated: 2025/07/20 17:49:22 by yhusieva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,15 +65,22 @@ void	stack_clear(t_node **top, int (*pop)(t_node **))
 		pop(top);
 }
 
-// void print_stack(t_node *head)
-// {
-//     t_node *tmp;
+void	stack_print(t_node *stack)
+{
+	t_node	*current;
 
-//     tmp = head;
-//     while (tmp != NULL)
-//     {
-//         printf("%d ", tmp->value);
-//         tmp = tmp->next;
-//     }
-//     printf("\n");
-// }
+	if (stack == NULL)
+	{
+		ft_printf("Stack is empty\n");
+		return ;
+	}
+	current = stack;
+	while (current != NULL)
+	{
+		ft_printf("%d", current->value);
+		if (current->next != NULL)
+			ft_printf(" ");
+		current = current->next;
+	}
+	ft_printf("\n");
+}

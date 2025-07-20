@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   push_swap.h                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: yhusieva <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: yhusieva <yhusieva@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/08/12 13:23:53 by yhusieva          #+#    #+#             */
-/*   Updated: 2024/08/12 13:23:54 by yhusieva         ###   ########.fr       */
+/*   Updated: 2025/07/20 17:49:22 by yhusieva         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,6 +78,7 @@ t_node	*create_node(int value);
 void	stack_add_front(t_node **top, t_node *newnode);
 void	del_node(t_node **node);
 void	stack_clear(t_node **top, int (*pop)(t_node **));
+void	stack_print(t_node *stack);
 
 // void print_stack(t_node *head);
 
