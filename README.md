@@ -39,7 +39,3 @@ Sorted stack:
 -4 2 4 5 9
 ```
 
-## Requirements
-
-- Compiles with `make`
-- Developed according to the 42 School Norms, with no memory leaks.
